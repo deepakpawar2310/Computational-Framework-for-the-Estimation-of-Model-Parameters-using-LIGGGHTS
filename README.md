@@ -1,6 +1,23 @@
-# Computational-Framework-for-the-Estimation-of-Model-Parameters-using-LIGGGHTS
+# DEM-Based Computational Framework for the Estimation of Model Parameters using LIGGGHTS
 
 Develop a computational framework to estimate the failure envelope and related parameters for the Drucker-Prager model using the DEM tool
+Find the attached figures for more information !
+
+1. Procedure for triaxial compression.pdf
+
+Procedure for triaxial compression in LIGGGHTS: (a) Initial sample after
+pouring of monodisperse particles in simulation domain, (b) Hydrostatic
+compression and (c) Triaxial compression.
+
+
+2. Working of servo-wall in LIGGGHTS for constant stresses.pdf
+Flowchart describing (a) Triaxial simulation setup, (b) Steps related to
+working of servo-wall and (c) Convergence of constant force on servo-wall.
+Note that the PID controller ensures only the constancy of a specified force on
+the servo walls, not the stress.
+
+
+
 
 If you find the codes beneficial for your work, please consider citing one or more of the following articles where these codes have been employed:
 
